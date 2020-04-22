@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Twitter</title>
+
+    <!-- Include links to CSS stylesheets below -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1 class="title has-text-info"><i class="fab fa-twitter"></i> &nbsp; Twitter</h1>
+        <button class='button is-info is-rounded' id="tweet">
+            <span class="icon">
+                <i class="fas fa-feather-alt"></i>
+            </span>
+            &nbsp; Tweet
+        </button>
+    </header>
+    <main>
+        <div class="modal">
+            <div class="modal-background"></div>
+            <div class="modal-card">
+                <header class="modal-card-head">
+                    <p class="modal-card-title">Write your tweet</p>
+                    <button class="delete cancel-btn" aria-label="close"></button>
+                </header>
+                <section class="modal-card-body">
+                    <form>
+                        <textarea class='textarea'></textarea>
+                    </form>
+                </section>
+                <section class="modal-card-foot">
+                    <button class="button is-info" id="sendTweet">Send Tweet</button>
+                    <button class="button cancel-btn is-white">Cancel</button>
+                </section>
+            </div>
+        </div>
+        <div id='tweets'>
+        </div>
+        </div>
+    </main>
+    <h2>Nothing else to see :o</h2>
+
+    <!-- Include links to JavaScript files below -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="node_modules/axios/dist/axios.js"></script>
+
+    <script src="script.js" type="module"></script>
+</body>
+
+</html>

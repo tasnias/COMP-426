@@ -1,0 +1,115 @@
+* {
+    margin: 0; 
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #FAF8EF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #776E65;
+}
+
+#root .row {
+    display: flex;
+}
+
+#root > div {
+    background-color: #BBADA0;
+    padding: .3rem;
+    border-radius: 0.3rem;
+    margin: .5rem;
+}
+
+.row div {
+    width: 8vw;
+    height: 8vw;
+    background-color: #CDC1B4;
+    border-radius: 0.3rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    margin: .3rem;
+}
+
+h2, button {
+    background-color: #BBADA0;
+    color: #EDE3D9;
+    margin: .5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    text-transform: uppercase;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    display: inline;
+}
+
+.type2 {
+    background-color: #EEE4DA !important;
+    color: #776E65 !important;
+}
+
+.type4 {
+    background-color: #EDE0C8 !important;
+    color: #776E65 !important;
+}
+
+
+.type8 {
+    background-color: #F2B179 !important;
+    color: #F9F6F2 !important;
+}
+
+.type16 {
+    background-color: #F59563 !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type32 {
+    background-color: #F67C5F !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type64 {
+    background-color: #F65E3B !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type128 {
+    background-color: #EDCF72 !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type256 {
+    background-color: plum !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type512 {
+    background-color: skyblue !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type1024 {
+    background-color: olivedrab !important;
+    color: #F9F6F2 !important;
+
+}
+
+.type2048 {
+    background-color: greenyellow !important;
+    color: #F9F6F2 !important;
+
+}

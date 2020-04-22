@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>2048</title>
+    <link rel='stylesheet' href="styles.css">
+</head>
+
+<body>
+    <h1>2048</h1>
+    <div style='display: flex;'>
+        <h2>Score: </h2>
+        <button>New Game</button>
+    </div>
+    <p>Join the numbers with the arrow keys and get to the 2048 tile!</p>
+    <p id='message'></p>
+    <div id="root">
+        <div>
+            <span></span>
+        </div>
+    </div>
+
+    <!-- Include links to JavaScript files below -->
+    <!-- TODO: Add link to jQuery here -->
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="engine/game.js"></script>
+    <script src="render.js" type="module"></script>
+</body>
+</html>

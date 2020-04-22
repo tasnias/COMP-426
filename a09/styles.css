@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #E6ECF0;
+    min-height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-start;
+    border-bottom: 1px solid #E6ECF0;
+}
+
+li {
+    margin: 1rem;
+    font-weight: 700;
+    font-size: 1.25rem;
+}
+
+main {
+    /* min-width: 50vw; */
+    /* max-width: 1800px; */
+    background-color: white;
+    margin: 1rem;
+    margin-top: 0;
+}
+
+.tweet {
+    padding: 1rem;
+    border-bottom: 1px solid #E6ECF0;
+    width: 600px;
+}
+
+.tweet:hover {
+    background-color: aliceblue;
+    transition: 0.3s all;
+}
+
+.tweet header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avi {
+    background-color: darkslategray;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+header {
+    display: flex;
+    width: 100%;
+}
+
+header>div,
+header>span,
+footer>span,
+header>button {
+    margin-right: 1rem;
+}
+
+.body {
+    margin-bottom: 1rem;
+    margin-top: -1rem;
+}
+
+.body,
+footer {
+    margin-left: 4rem;
+}
+
+footer,
+footer button {
+    color: slategray;
+}
+
+.author {
+    font-weight: bolder;
+    padding-right: 1rem;
+}
+
+.handle,
+.date {
+    color: rgb(173, 173, 173);
+}
+
+.dropdown {
+    float: right;
+}
+
+button {
+    background-color: transparent;
+    border: 0;
+}
+
+header button {
+    color: rgb(173, 173, 173);
+}
+
+button:hover {
+    color: black;
+}
+
+.modal-card-head, .modal-card-foot {
+    background-color: white;
+    border-color: #E6ECF0;
+}
+
+.header-left-stuff {
+    display: flex;
+}
+
+body>header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-bottom: 5px;
+    background-color: white;
+    width: 100%;
+    border-bottom: 2px solid rgb(192, 210, 221);
+}
+
+h1 {
+    margin-bottom: 6px !important;
+    margin-left: 1rem;
+}
+
+#rt {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    color: grey;
+    padding-bottom: 5px;
+}
